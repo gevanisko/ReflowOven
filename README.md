@@ -20,3 +20,4 @@ This project was inspired by the DIY reflow oven concept shown in the Instructab
 - STM32CubeIDE project files
 - Firmware source code written primarily in C
 - Designed to support surface-mount PCB assembly
+<img width="1275" height="1002" alt="image" src="https://github.com/user-attachments/assets/4c76bfb0-ead2-42b1-9171-60541e8fe1f5" />
