@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_1zYIkFiVEfGmCMGfx7GOQQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_1zYvoFiVEfGmCMGfx7GOQQ" bindingContexts="_1zYvqViVEfGmCMGfx7GOQQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;.cproject&quot; tooltip=&quot;C:\Projects\Reflow Oven\ReflowOven\STM32CubeData\Reflow_Oven_STM32_Source\.cproject&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Projects/Reflow%20Oven/ReflowOven/STM32CubeData/Reflow_Oven_STM32_Source/.cproject&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; tooltip=&quot;C:\Projects\Reflow Oven\ReflowOven\STM32CubeData\Reflow_Oven_STM32_Source\Core\Src\main.c&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Projects/Reflow%20Oven/ReflowOven/STM32CubeData/Reflow_Oven_STM32_Source/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;.project&quot; tooltip=&quot;C:\Projects\Reflow Oven\ReflowOven\STM32CubeData\Reflow_Oven_STM32_Source\.project&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Projects/Reflow%20Oven/ReflowOven/STM32CubeData/Reflow_Oven_STM32_Source/.project&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;.cproject&quot; tooltip=&quot;C:\Projects\Reflow Oven\ReflowOven\STM32CubeData\Reflow_Oven_STM32_Source\.cproject&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Projects/Reflow%20Oven/ReflowOven/STM32CubeData/Reflow_Oven_STM32_Source/.cproject&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_1zYvoFiVEfGmCMGfx7GOQQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_6dfuUliVEfGmCMGfx7GOQQ" x="160" y="160" width="1050" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -84,7 +84,7 @@
                 <tags>categoryTag:General</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_6qxVVliVEfGmCMGfx7GOQQ" containerData="7500" selectedElement="_6qxVXViVEfGmCMGfx7GOQQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_6qxVVliVEfGmCMGfx7GOQQ" containerData="7500" selectedElement="_6qxVV1iVEfGmCMGfx7GOQQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_6qxVV1iVEfGmCMGfx7GOQQ" containerData="7500" selectedElement="_6qxVWFiVEfGmCMGfx7GOQQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_6qxVWFiVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_6qawAFiVEfGmCMGfx7GOQQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_6qxVWViVEfGmCMGfx7GOQQ" elementId="topRight" containerData="2500" selectedElement="_6qxVWliVEfGmCMGfx7GOQQ">
@@ -104,7 +104,6 @@
               </children>
               <children xsi:type="basic:PartSashContainer" xmi:id="_6qxVXViVEfGmCMGfx7GOQQ" containerData="2500" selectedElement="_6qxVXliVEfGmCMGfx7GOQQ" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_6qxVXliVEfGmCMGfx7GOQQ" elementId="bottom" containerData="5000" selectedElement="_6qxVX1iVEfGmCMGfx7GOQQ">
-                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_6qxVX1iVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.views.ProblemView" ref="_6qmWMFiVEfGmCMGfx7GOQQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -181,9 +180,18 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_6qawAFiVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.editorss" selectedElement="_6qawAViVEfGmCMGfx7GOQQ">
-      <children xsi:type="basic:PartStack" xmi:id="_6qawAViVEfGmCMGfx7GOQQ" elementId="org.eclipse.e4.primaryDataStack">
+      <children xsi:type="basic:PartStack" xmi:id="_6qawAViVEfGmCMGfx7GOQQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_wE56cGrLEfGHU4YvjsCrNQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_wE56cGrLEfGHU4YvjsCrNQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="main.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;main.c&quot; partName=&quot;main.c&quot; title=&quot;main.c&quot; tooltip=&quot;C:\Projects\Reflow Oven\ReflowOven\STM32CubeData\Reflow_Oven_STM32_Source\Core\Src\main.c&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/C:/Projects/Reflow%20Oven/ReflowOven/STM32CubeData/Reflow_Oven_STM32_Source/Core/Src/main.c&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;14132&quot; selectionTopPixel=&quot;10217&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_6qj58FiVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.png" tooltip="" closeable="true">
@@ -216,8 +224,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;120&quot; org.eclipse.ui.ide.markerType=&quot;120&quot; org.eclipse.ui.ide.pathField=&quot;160&quot; org.eclipse.ui.ide.resourceField=&quot;120&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;400&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_63imAFiVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.views.ProblemView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -333,7 +339,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6k7MAFiVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6lAEgFiVEfGmCMGfx7GOQQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_11wHIViVEfGmCMGfx7GOQQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oqHnoGs-EfGxkN4RncYorw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_11wHIViVEfGmCMGfx7GOQQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6k7MAViVEfGmCMGfx7GOQQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -341,8 +347,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6k7zEFiVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6lBSoFiVEfGmCMGfx7GOQQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_11vgRFiVEfGmCMGfx7GOQQ"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6lBSoViVEfGmCMGfx7GOQQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_11x8nFiVEfGmCMGfx7GOQQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oqI1wGs-EfGxkN4RncYorw" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_11vgRFiVEfGmCMGfx7GOQQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oqJc0Gs-EfGxkN4RncYorw" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_11x8nFiVEfGmCMGfx7GOQQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6k7zEViVEfGmCMGfx7GOQQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -366,7 +372,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6k7zFViVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_6lB5sViVEfGmCMGfx7GOQQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_11u5JliVEfGmCMGfx7GOQQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_oqJc1ms-EfGxkN4RncYorw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_11u5JliVEfGmCMGfx7GOQQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_6k7zFliVEfGmCMGfx7GOQQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>

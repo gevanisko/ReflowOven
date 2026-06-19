@@ -89,7 +89,7 @@ typedef struct {
 	uint32_t ReflowTime;
 }ReflowTemplate;
 
-uint8_t data[2];
+uint16_t spi_data;
 uint8_t ReflowCurve[4000];
 float temp;
 float duty;
@@ -554,9 +554,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	if (htim == &htim4) {
 		//Thermocouple alle 500ms auslesen:
 		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, 0);
-		HAL_SPI_Receive(&hspi1, data, 2, 100);
+		HAL_SPI_Receive(&hspi1, (uint8_t*)&spi_data, 1, 100);
 		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, 1);
-		temp = ((((uint16_t) data[1] << 8) | data[2]) >> 3) * 0.249;
+		temp = (spi_data >> 3) * 0.25f;
 
 		//Reflow Prozess Einleiten:
 		if (ReflowEnable == 1) {
